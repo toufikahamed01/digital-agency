@@ -8,16 +8,14 @@
     align-items: center;
     background-color: gray;
     padding: 20px;
-
 }
 .menus{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 15px;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 700;
+    gap: 50px;
+    font-size: 30px;
+    cursor: pointer;
 }
 .banner-container{
     height: 100vh;
@@ -183,6 +181,10 @@
     box-shadow: 4px 4px 10px gray;
     border-radius: 10px;
     margin: 50px 0;
+    transition: 0.5s;
+}
+.blog-single-box:hover{
+    box-shadow: 8px 8px 10px rgb(51, 47, 47);
 }
 .box-content{
     padding: 0 20px;
